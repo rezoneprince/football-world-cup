@@ -13,7 +13,7 @@ body{
 /* --common css end-- */
 
 
-/* --headers work start-- */
+/* --hheader sections start-- */
     .container{
         width: 80%;
         padding: 50px 150px;
@@ -61,7 +61,82 @@ body{
     margin-left: 80px;
     margin-bottom: -6px;
 }
-/* --headers work end-- */
+/* --header sections end-- */
 
-
+/* --second section start-- */
+.all-match{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+}
+.side-bar{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(16, 16, 16);
+    border-radius: 10px;
+}
+.side-bar button{
+    padding: 15px 20px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+} 
+.side-bar a{
+    font-size: 18px;
+    color: rgb(16, 16, 16);
+    font-weight: 500;
+}
+.side-bar .need-gap{
+    margin-top: 20px;
+}
+.side-bar .active{
+    background-color: #DD0000;
+    margin-bottom: 20px;
+}
+.side-bar .active a{
+    color: #fff;
+}
+.see-match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 15px;
+}
+.live-match{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.detail-match{
+    padding: 10px 20px;
+}
+.detail-match button{
+    padding: 2px 15px;
+    border: 1px solid rgb(16, 16, 16);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.detail-match a{
+    font-size: 15px;
+    color:rgb(16, 16, 16);
+    font-weight: 500;
+}
+.detail-match p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.detail-match span i{
+    padding-right: 20px;
+    color: #515151;
+}   
+.use-tablet{
+    text-align: center;
+    display: none;
+} 
+.for-tablets{
+    padding: 10px 30px;
+    margin: 20px 20px;
+}
+/* --second section end-- */
 
