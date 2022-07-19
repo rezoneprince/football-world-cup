@@ -1,0 +1,67 @@
+/* --google fonts-- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* --common css start-- */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --common css end-- */
+
+
+/* --headers work start-- */
+    .container{
+        width: 80%;
+        padding: 50px 150px;
+    }
+.header{
+    display: flex;
+    background-color:rgb(16, 16, 16);
+    border-radius: 20px;
+    align-items: center;
+}
+.header:hover{
+    background-color:#f17f63;
+    cursor: pointer;
+    transition: ease-in .6s;
+}
+.headers-title{
+    padding: 50px 90px;
+}
+.headers-title h1{
+    font-size: 45px;
+    color:#fff;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+.headers-title p{
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.headers-title button{
+    padding: 10px 25px;
+    background-color: #DD0000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.headers-title button:hover{
+    background-color:rgb(16, 16, 16);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.header-image{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: -6px;
+}
+/* --headers work end-- */
+
+
+
