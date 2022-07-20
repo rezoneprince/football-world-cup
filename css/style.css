@@ -165,6 +165,53 @@ body {
     margin: 20px 20px;
 }
 
+/*--match sheets second sections style start--*/
+.country-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.team-match {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px 0;
+}
+
+.team-flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.team-reverse {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.team-reverse p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+
+.team-reverse span {
+    font-size: 15px;
+    margin-bottom: 155px;
+
+}
+
+.team-flag span {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+/*--match sheets style start--*/
+
+
+
 
 /* --footers sections start-- */
 .goal-done footer {
@@ -188,6 +235,17 @@ footer hr {
 footer a {
     padding: 50px 20px;
     color: #fff;
+}
+
+footer .social {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 30px;
+    display: none;
+}
+
+footer .social i {
+    padding-right: 15px;
 }
 
 /* --footers sections end-- */
