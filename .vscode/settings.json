@@ -1,0 +1,7 @@
+{
+    "editor.formatOnType": false,
+    "html.format.extraLiners": "",
+    "html.format.templating": true,
+    "html.format.unformatted": "",
+    "html.format.enable": true
+}
