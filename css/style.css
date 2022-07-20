@@ -172,18 +172,6 @@ body {
 }
 
 /*--match & group second sections style start--*/
-.country-match {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    margin-left: 15px;
-}
-
-.team-match {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 25px 0;
-}
 
 .team-flag {
     display: grid;
@@ -215,10 +203,7 @@ body {
 
 /*--match & group second sections style start--*/
 
-
-
-
-/* --footers sections start-- */
+/* --footer sections start-- */
 .goal-done footer {
     background-color: rgb(16, 16, 16);
     padding: 50px 150px;
@@ -253,11 +238,13 @@ footer .social i {
     padding-right: 15px;
 }
 
-/* --footers sections end-- */
+/* --footer sections end-- */
 
 /*--media quries start--*/
 
 /*--mobile device start--*/
+
+/* --header sections mq start-- */
 
 @media only screen and (max-width: 688px) {
     .container {
@@ -290,6 +277,8 @@ footer .social i {
     }
 
     /* --header sections mq end-- */
+
+    /*--second sections mq start--*/
 
     .all-match {
         display: grid;
@@ -328,6 +317,7 @@ footer .social i {
 
     /*--second sections mq end--*/
 
+    /*--footer sections mq start--*/
     .goal-done footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -341,12 +331,10 @@ footer .social i {
 
     footer span {
         margin-bottom: 30px;
-
     }
 
     footer a {
         color: #B9B9B9;
-
     }
 
     footer .social {
@@ -358,9 +346,9 @@ footer .social i {
         padding-right: 20px;
         padding: 10px 0;
     }
-
-    /*--footer sections mq end--*/
 }
+
+/*--footer sections mq end--*/
 
 /*--mobile device end--*/
 
@@ -375,6 +363,10 @@ footer .social i {
         grid-template-columns: repeat(2, 1fr);
         align-items: end;
         justify-content: center;
+    }
+
+    .header-image {
+        margin-left: -60px;
     }
 
     .headers-title h1 {
@@ -454,10 +446,5 @@ footer .social i {
 }
 
 /*--footer sections mq end--*/
-
 /*--tablet device end--*/
-
-
-
-
 /*--media quries end--*/
