@@ -60,7 +60,7 @@ body {
     padding: 10px 25px;
     background-color: #DD0000;
     color: #fff;
-    /* font-size: 18px; */
+    font-size: 18px;
     border-radius: 10px;
     border: none;
 }
@@ -261,7 +261,7 @@ footer .social i {
 
 @media only screen and (max-width: 688px) {
     .container {
-        width: 90%;
+        width: 60%;
     }
 
     .header {
@@ -289,46 +289,69 @@ footer .social i {
         text-align: center;
     }
 
+    /* --header sections mq end-- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*--nicha jaw--*/
     .all-match {
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
     }
 
-    .goal-done {
-        display: none;
+    .side-bar {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
     }
+
+    .see-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .live-match {
+        border: 1px solid rgb(222, 219, 219);
+        border-radius: 10px;
+    }
+
+    .live-match img {
+        width: 100%;
+    }
+
+    /*--second sections mq end--*/
+
+    .goal-done footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer h2 {
+        font-size: 35px;
+        color: #fff;
+        padding: 20px 10px;
+    }
+
+    footer span {
+        margin-bottom: 30px;
+    }
+
+    footer a {
+        color: #B9B9B9;
+    }
+
+    footer .social {
+        display: block;
+    }
+
+    /*--footer sections mq end--*/
 }
 
 /*--mobile device end--*/
+
+
+
 
 /*--media quries end--*/
