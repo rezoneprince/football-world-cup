@@ -239,7 +239,7 @@ footer hr {
 
 footer a {
     padding: 50px 20px;
-    color: #fff;
+    color: #B9B9B9;
 }
 
 footer .social {
@@ -261,7 +261,7 @@ footer .social i {
 
 @media only screen and (max-width: 688px) {
     .container {
-        width: 60%;
+        width: 90%;
     }
 
     .header {
@@ -300,8 +300,13 @@ footer .social i {
     .side-bar {
         display: grid;
         justify-content: center;
+        background-color: #fff;
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .side-bar button {
+        border: 1px solid rgb(147, 144, 144);
     }
 
     .see-match {
@@ -336,20 +341,121 @@ footer .social i {
 
     footer span {
         margin-bottom: 30px;
+
     }
 
     footer a {
         color: #B9B9B9;
+
     }
 
     footer .social {
         display: block;
     }
 
+    .social a i {
+        color: #DD0000;
+        padding-right: 20px;
+        padding: 10px 0;
+    }
+
     /*--footer sections mq end--*/
 }
 
 /*--mobile device end--*/
+
+/*--tablet device start--*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: end;
+        justify-content: center;
+    }
+
+    .headers-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .headers-title p {
+        font-size: 14px;
+    }
+
+    /* --header sections mq end-- */
+    .all-match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .side-bar {
+        display: flex;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: center;
+        width: 100%;
+        align-items: flex-end;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .side-bar button {
+        width: 50%;
+        border: 1px solid #c2bfbf;
+    }
+
+    .side-bar .active {
+        margin-bottom: 10px;
+    }
+
+    .see-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .see-match .tablet-off {
+        display: none;
+    }
+
+    .live-match img {
+        width: 100%;
+    }
+
+    .use-tablet {
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .use-tablet button a {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .for-tablets {
+        padding: 18px 45px;
+        margin: 20px 40px;
+        background-color: #DD0000;
+        color: #fff;
+        border-radius: 15px;
+        border: none;
+    }
+
+    footer a {
+        color: #B9B9B9;
+    }
+}
+
+/*--footer sections mq end--*/
+
+/*--tablet device end--*/
 
 
 
