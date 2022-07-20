@@ -16,9 +16,13 @@ body {
 
 
 /* --header sections start-- */
+.all-section {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     width: 80%;
-    padding: 50px 150px;
 }
 
 .header {
@@ -26,6 +30,7 @@ body {
     background-color: rgb(16, 16, 16);
     border-radius: 20px;
     align-items: center;
+    margin: 56px 0px;
 }
 
 .header:hover {
@@ -55,6 +60,7 @@ body {
     padding: 10px 25px;
     background-color: #DD0000;
     color: #fff;
+    /* font-size: 18px; */
     border-radius: 10px;
     border: none;
 }
@@ -165,7 +171,7 @@ body {
     margin: 20px 20px;
 }
 
-/*--match sheets second sections style start--*/
+/*--match & group second sections style start--*/
 .country-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -200,7 +206,6 @@ body {
 .team-reverse span {
     font-size: 15px;
     margin-bottom: 155px;
-
 }
 
 .team-flag span {
@@ -208,7 +213,7 @@ body {
     padding: 15px 10px;
 }
 
-/*--match sheets style start--*/
+/*--match & group second sections style start--*/
 
 
 
@@ -249,3 +254,81 @@ footer .social i {
 }
 
 /* --footers sections end-- */
+
+/*--media quries start--*/
+
+/*--mobile device start--*/
+
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 90%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .headers-title {
+        text-align: center;
+    }
+
+    .headers-title h1 {
+        font-size: 35px;
+        color: #fff;
+        line-height: 45px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .headers-title p {
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*--nicha jaw--*/
+    .all-match {
+        display: none;
+    }
+
+    .goal-done {
+        display: none;
+    }
+}
+
+/*--mobile device end--*/
+
+/*--media quries end--*/
